@@ -1,0 +1,312 @@
+body{
+  background-image: url("https://s3.amazonaws.com/downtown-brooklyn/imgr/Downtown-Brooklyn-Skyline-4.jpg");
+  background-attachment: fixed; /* Gör så den är fast och annat scrollar förbi*/
+  background-repeat: no-repeat; /* Så att bilden inte upprepar sig*/
+  background-size: cover; /* Täcker allt*/
+}
+
+header{
+   background-image: linear-gradient(black, rgb(60, 60, 60))
+}
+
+h2{
+  color: yellow;
+}
+h2,h1,h3,.litenbrödtext{
+  font-family: Impact, Oswald, sans-serif;
+  color: yellow;
+}
+
+p{
+  font-family: impact;
+  color: yellow;
+  font-size: 75%;
+}
+
+.rubrik_för_karaktär{
+  color: yellow;
+  text-align: center;
+}
+
+.tillhemsida{
+  text-align: center;
+  margin-top: 25%;
+  text-decoration: none;
+}
+
+.vädb,
+.karaktärer{
+margin-top:auto;
+margin-bottom: auto;
+text-align: center;
+text-decoration: none;
+}
+
+.brooklynbild{
+  width: 100%;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.brooklynbild2{
+  width:100%;
+  position: relative;
+  top: 20px;
+}
+
+.intro{
+  background-color: rgb(34, 34, 34);
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  margin-top: 1%;
+}
+
+
+.rubrik{
+  text-align: center;
+}
+
+.litenbrödtext{
+  text-align: center;
+  font-size: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#brooklynbild{
+  width: 100%;
+  display: block;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.brooklynbildtre{
+  width: 65%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.brooklynbildfyra{
+  width:65%;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.karaktärsbild{
+  width:75%;
+  margin-top: 2% ;
+  align-items: center;
+}
+
+.jake{
+  margin-left: 10%;
+  margin-right:0;
+  margin-top: 5%;
+  background-color: rgb(34, 34, 34);
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.jakerubrik,
+.rayrubrik{
+  text-align: center;
+}
+
+.jakebild{
+  width:50%;
+}
+
+.jaketext{
+  margin-top:40%;
+ padding-right: 15%;
+}
+
+
+
+.ray{
+  margin-left: 0;
+  margin-right:10%;
+  margin-top: 5%;
+  background-color: rgb(34, 34, 34);
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.raybild{
+  width: 50%;
+}
+
+.raytext{
+  margin-top: 40%;
+  margin-left: 20%;
+}
+
+
+
+.amy{
+  margin-left: 10%;
+  margin-right:0;
+  margin-top: 5%;
+  background-color: rgb(34, 34, 34);
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.amyrubrik{
+  text-align: center;
+}
+
+.amybild{
+  width: 50%;
+}
+
+.amytext{
+  margin-top:40%;
+ padding-right: 15%;
+}
+
+
+.rosa{
+  margin-left: 0;
+  margin-right:10%;
+  margin-top: 5%;
+  background-color: rgb(34, 34, 34);
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.rosabild{
+  width: 50%;
+}
+
+.rosarubrik{
+  text-align: center;
+}
+
+.rosatext{
+  margin-top: 40%;
+  margin-left: 20%;
+}
+
+
+.varför_är_den_bra_rubrik{
+  text-align: center;
+}
+
+.maindelen{
+  margin-top:5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(34, 34, 34);
+  border-color: black;
+  border-width: 15px;
+  border-style: solid;
+}
+
+.lorem_ipsum{
+
+}
+
+.loremtext1{
+  margin-top: 5%;
+}
+
+.loremtext2{
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.loremtext3{
+
+  margin-top: 5%;
+}
+
+.lorem_ipsum4{
+  width: 85%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sluttext{
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px){
+.tillhemsida{
+ margin-top: 35%;
+
+}
+}
+
+
+@media only screen and (max-width: 865px){
+.tillhemsida{
+  margin-top: 45%;
+}
+}
+
+@media only screen and (max-width: 550px){
+  .tillhemsida{
+  margin-top: 70%;
+  }
+
+  .hemsidalänk{
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .jaketext, .raytext, .rosatext, .amytext{
+    margin-top: 30%;
+    margin-left:30%;
+    margin-right: 5%;
+  }
+
+  .jake, .rosa, .ray, .amy{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+}
+
+@media only screen and (max-width: 1190px){
+  .jaketext, .raytext, .rosatext, .amytext{
+    margin-top: 50%;
+  }
+}
+
+@media only screen and (max-width: 900px){
+  .jaketext, .raytext, .rosatext, .amytext{
+    margin-top: 60%;
+  }
+}
+
+@media only screen and (max-width: 620px){
+  .lorem_ipsum, .lorem_ipsum2, .lorem_ipsum3{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .loremtext1, .loremtext2, .loremtext3{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .lorem_ipsum, .lorem_ipsum2, .lorem_ipsum3{
+    width: 100%;
+    margin-top: 10%;
+  }
+}
