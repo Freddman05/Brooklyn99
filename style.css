@@ -39,7 +39,10 @@ p{
 margin-top:auto;
 margin-bottom: auto;
 text-align: center;
+}
 
+a:hover{
+  color: white;
 }
 
 .brooklynbild{
