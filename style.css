@@ -291,7 +291,7 @@ text-decoration: none;
 
 @media only screen and (max-width: 620px){
   .lorem_ipsum, .lorem_ipsum2, .lorem_ipsum3{
-    width: 40%;
+    width: 37%;
     margin-left: auto;
     margin-right: auto;
   }
