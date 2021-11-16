@@ -296,11 +296,16 @@ text-decoration: none;
     margin-right: auto;
   }
 
+
   .loremtext1, .loremtext2, .loremtext3{
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
+  }
+
+  .brooklynbild, .brooklynbild, .brooklynbildtre, .brooklynbildfyra{
+    visibility: hidden;
   }
 }
 
