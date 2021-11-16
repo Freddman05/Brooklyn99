@@ -305,7 +305,7 @@ text-decoration: none;
   }
 
   .brooklynbild, .brooklynbild2, .brooklynbildtre, .brooklynbildfyra{
-    visibility: hidden;
+    display: none;
   }
 }
 
