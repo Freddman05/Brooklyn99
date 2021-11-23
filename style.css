@@ -12,7 +12,7 @@ header{
 h2{
   color: yellow;
 }
-h2,h1,h3,.litenbrödtext{
+h2,h1,h3,ul,.litenbrödtext{
   font-family: Impact, Oswald, sans-serif;
   color: yellow;
 }
@@ -39,6 +39,14 @@ p{
 margin-top:auto;
 margin-bottom: auto;
 text-align: center;
+}
+
+.netflix_lank{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+  margin-bottom: 0;
 }
 
 a:hover{
@@ -315,17 +323,16 @@ a:hover{
   .brooklynbild, .brooklynbild2, .brooklynbildtre, .brooklynbildfyra{
     display: none;
   }
+
+  .lorem_ipsum4{
+    margin-top:0;
+  }
 }
 
 @media only screen and (max-width: 500px){
   .lorem_ipsum2, .lorem_ipsum3{
     width: 100%;
     margin-top: 25%;
-  }
-
-  .lorem_ipsum4{
-  margin-top: 50%;
-
   }
 
   .lorem_ipsum{
